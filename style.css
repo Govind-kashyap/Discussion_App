@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 50px;
+    font-size: 40px;
+    background-color: rgb(14, 201, 170);
+    color: rgb(240, 255, 253);
+    display: flex;
+    justify-content: center;
+}
+
+.mainpanel{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left{
+    width: 50vw;
+    background-color: rgb(202, 210, 208);
+}
+
+.bt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 50vw;
+    background-color: aliceblue;
+}
+
+.right{
+    width: 50vw;
+}
+
+.new-question{
+    margin: 20px;
+    height: 5vh;
+    width: 120px;
+    border-radius: 4px;
+    background-color: rgb(14, 201, 170);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0;
+}
+
+.new-question:hover{
+    cursor: pointer;
+    transition-duration: 0.7s;
+    box-shadow: 0px 4px 12px 4px rgba(14, 170, 128, 0.571);
+}
+
+#search{
+    float: right;
+    height: 4vh;
+    width: 200px;
+    border-radius: 4px;
+    border-color: rgb(14, 201, 170);
+    margin-right: 5px;
+}
+
+.main h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.main h3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+#input-box{
+    margin-left: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    border-color: rgb(14, 201, 170);
+}
+
+#text-question{
+    height: 200px;
+    width: 40vw;
+    margin: 20px;
+    margin-left: 35px;
+    border-radius: 4px;
+    border: 2px solid;
+    border-color: rgb(14, 201, 170);
+}
+
+.submit{
+    float: right;
+    margin-right: 10vw;
+    height: 6vh;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(14, 201, 170);
+    color: aliceblue;
+    border-radius: 4px;
+    border: 0;
+}
+
+.submit:hover{
+    cursor: pointer;
+    transition-duration: 0.7s;
+    box-shadow: 0px 4px 12px 4px rgba(13, 141, 119, 0.571);
+}
+
+.question{
+    margin: 8px;
+    margin-bottom: 18px;
+    width: 45vw;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 12px 4px rgba(143, 243, 226, 0.571);
+
+}
+
+
+.rightpanel{
+    display: none;
+}
+
+.rightpanel{
+    margin-left: 20px;
+    height: 100vh;
+    width: 50vw;
+}
+
+.response{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.quetext{
+    margin: 10px;
+    width: 45vw;
+    height: 80px;
+    background-color: rgb(203, 220, 236);
+    border-radius: 4px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 12px 4px rgba(117, 235, 216, 0.571);
+}
+
+.enter-name{
+    margin-left: 30px;
+    height: 35px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.inpbox{
+    width: 25vw;
+    height: 4vh;
+    border-radius: 4px;
+    border-color: rgb(14, 201, 170);
+}
+
+.inpbox1{
+    height: 200px;
+    width: 45vw;
+    border-radius: 4px;
+    border: 2px solid;
+    border-color: rgb(14, 201, 170);
+}
+
+.resbtn1{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 3vw;
+    margin-left: 20px;
+    font-size: 20px;
+    height: 6vh;
+    width: 100px;
+    border: 0;
+    background-color: rgb(14, 201, 170);
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.resbtn1:hover{
+    cursor: pointer;
+    transition-duration: 0.7s;
+    box-shadow: 0px 4px 12px 4px rgba(45, 202, 176, 0.571);
+}
+
+.res{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resbtn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 3vw;
+    height: 6vh;
+    width: 100px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(14, 201, 170);
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.resbtn:hover{
+    cursor: pointer;
+    transition-duration: 0.7s;
+    box-shadow: 0px 4px 12px 4px rgba(45, 202, 165, 0.571);
+}
+
+.new-res{
+    display: block;
+    color: aliceblue;
+    height: 10vh;
+    width: 30vw;
+    background-color: rgb(14, 201, 170);
+    margin: 10px;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 12px 4px rgba(49, 170, 150, 0.571);
+}
+
+.mainresponse{
+    height: 20vh;
+    width: 40vw;
+    background-color: rgb(238, 238, 244);
+    margin-top: 60px;
+    margin-left: 20px;
+    overflow: scroll;
+    box-shadow: 0px 4px 12px 4px rgba(59, 216, 190, 0.571);
+    border-radius: 15px;
+}
+
+.like-dislike{
+    float: left;
+    margin-left: 55vw;
+}
+
+/* Responsive code for tablets */
+@media (max-width: 768px) {
+    .mainpanel {
+        flex-direction: column;
+    }
+    
+    .left{
+        width: 100%;
+    }
+
+    .bt{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+
+    .rightpanel{
+        width: 100%;
+    }
+
+    #text-question{
+        width: 80%;
+    }
+
+    .mainresponse {
+        margin: 10px;
+        height: 180px;
+        border-radius: 5px;
+        width: 70vw;
+    }
+
+    .question {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .quetext{
+        width: 90%;
+    }
+
+    .new-res{
+        width: 80%;
+    }
+
+    .inpbox1{
+        width: 90%;
+    } 
+
+    .submit {
+        margin-right: 15%;
+    }
+
+    .resbtn1{
+        margin-right: 10%;
+    }
+
+    .resbtn{
+        margin-right: 10%;
+    }
+}
+
+/* Responsive code for phones */
+@media (max-width: 480px) {
+    .mainpanel {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .left{
+        width: 100vw;
+    }
+
+    .right{
+        width: 100vw;
+    }
+
+    .rightpanel{
+        width: 100vw;
+    }
+
+    .bt{
+        display: flex;
+        height: 80px;
+    }
+
+    .res{
+        padding: 10px;
+    }
+
+    .submit{
+        width: 120px;
+        height: 5vh;
+        font-size: 20px;
+        margin-right: 5%;
+    }
+
+    .resbtn1 {
+        width: 100px;
+        height: 5vh;
+        font-size: 16px;
+        margin-right: 12%;
+    }
+
+    .resbtn{
+        width: 100px;
+        height: 5vh;
+        font-size: 16px;
+        margin-right: 14%;
+        margin-bottom: 5px;
+    }
+
+    .submit{
+        margin-right: 10%;
+    }
+
+    .new-question {
+        width: 150px;
+    }
+
+    #search {
+        width: 30%;
+    }
+
+    #input-box{
+        width: 40%;
+    }
+
+    .inpbox1{
+        height: 80px;
+        width: 240px;
+    }
+
+    .inpbox{
+        height: 20px;
+        width: 180px;
+    }
+
+    #text-question {
+        width: 55%;
+        height: 80px;
+    }
+
+    .quetext, .new-res, .question{
+        height: 60px;
+        width: 80%;
+    }
+
+    .mainresponse{
+        height: 100px;
+        width: 58%;
+    }
+}

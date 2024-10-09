@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">Discussion App</div>
+
+    <div class="mainpanel">
+        <!-- left painel -->
+        <div id="left" class="left">
+            <div class="bt">
+            <button id="new-question" class="new-question" onclick="addquestion()">New question</button>
+            <input type="text" placeholder="Search Question" id="search">
+        </div>
+    </div>
+
+        <!-- right painel -->
+        <div id="right" class="right">
+            <div class="main">
+                <h1>Welcome to Discussion Portal</h1>
+                <h3>Enter a Subject and question to get started</h3>
+
+                <div class="text">
+                <input type="text" placeholder="Enter Subject" id="input-box"><br>
+                <textarea name="text" id="text-question" placeholder="Enter Your Question"></textarea>
+                <button id="submit" class="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightpanel" id="rightpanel">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
